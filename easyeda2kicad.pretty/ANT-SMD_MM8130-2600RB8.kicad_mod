@@ -1,0 +1,165 @@
+(footprint "ANT-SMD_MM8130-2600RB8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.15 0)
+		(layer "F.SilkS")
+		(uuid "164b92bf-0197-4b19-ad04-1d4928becaa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-SMD_MM8130-2600RB8"
+		(at 0 5.15 0)
+		(layer "F.Fab")
+		(uuid "e7ed9907-a92f-4169-9481-952fd8d339f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6611df22-f429-4076-b628-7f2aecdbf6ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5edc119-989b-48d9-9e7e-cba18fc101d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dac8cbc-0e2f-4999-a7eb-b0868b6faa75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.33)
+		(end -1.25 0.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "663c537b-be65-4e3a-abb7-86e1b6674d0f")
+	)
+	(fp_line
+		(start 1.25 -0.33)
+		(end 1.25 0.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368b343c-d6e6-44aa-9874-1498341d2138")
+	)
+	(fp_circle
+		(center 0 -1.75)
+		(end 0.1 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6fdff77a-713a-4d2f-aa04-0b489b7f471e")
+	)
+	(fp_circle
+		(center -1.25 -1.33)
+		(end -1.22 -1.33)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9e22473e-05f7-42e9-8091-d5caf025f2f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a579e7c1-7efb-447a-a8ce-dbe157c3cafb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.16)
+		(size 0.5 0.58)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0760a41b-02b1-43be-8b86-99e5f15ae381")
+	)
+	(pad "2" smd rect
+		(at 0 1.16)
+		(size 0.5 0.58)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4d700dd-37e5-438e-8716-5fcca0619874")
+	)
+	(pad "4" smd rect
+		(at -1.025 -0.96)
+		(size 0.75 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cbbbd1e3-cddd-4a3f-ad3b-e277a76c6321")
+	)
+	(pad "4" smd rect
+		(at -1.025 0.96)
+		(size 0.75 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e7140e0-e14c-48a4-9d77-9a45eb176a0e")
+	)
+	(pad "4" smd rect
+		(at 1.025 -0.96)
+		(size 0.75 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1eb39f10-c5a6-43d4-96d0-2077f764c21d")
+	)
+	(pad "4" smd rect
+		(at 1.025 0.96)
+		(size 0.75 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad16db18-7b6e-4d1c-994a-6b104cc7015a")
+	)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/ANT-SMD_MM8130-2600RB8.wrl"
+		(offset
+			(xyz -0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
